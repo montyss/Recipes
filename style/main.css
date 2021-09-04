@@ -1,0 +1,63 @@
+/******************* GENERAL ******************/
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+#nav {
+    text-align: center;
+    color: #70db70;
+    list-style-type: none;
+    text-decoration: aqua;
+}
+
+#nav li {
+    display: inline-block;
+    padding: 6px 8px 6px 8px;
+}
+
+#nav li a {
+    color: beige;
+}
+
+#nav li:hover {
+    background-color: cyan;
+}
+/*************************HEADER*************/
+
+#header {
+        background-color: #3399ff;
+}
+
+h1 {
+    font-size: 36px;
+    color: #ffffff;
+    padding: 15px 0px 0px 0px;
+    margin: 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: #ffffff;
+    padding-top: 10px;
+    margin: 0px;
+    text-align: center;
+}
+
+/*************************CONTENT*************/
+
+#content {
+        width: 600px;
+        margin: 30px auto;
+}
+
+#content h4 {
+        border-bottom: darkblue solid 3px;
+}
